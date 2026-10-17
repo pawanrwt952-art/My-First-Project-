@@ -2,13 +2,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pawan | Portfolio</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101010;
+  color: white;
+  text-align: center;
+}
+header {
+  padding: 20px;
+  background: #181818;
+  color: #38bdf8;
+}
+.hero { padding: 65px 20px; }
+h1 { font-size: 36px; }
+span { color: #38bdf8; }
+p { color: #ccc; line-height: 1.7; }
+section { padding: 25px 15px; }
+.card {
+  background: #202020;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 400px;
+  border-radius: 12px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #38bdf8;
+  color: #101010;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+footer {
+  padding: 20px;
+  background: #181818;
+}
+</style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>My name is Pawan.</p>
-    <p>I am learning Web Development.</p>
+<header><h2>PAWAN'S PORTFOLIO</h2></header>
+
+<div class="hero">
+  <h1>Hello, I'm <span>Pawan!</span></h1>
+  <p>BCA Student | Future Frontend Developer</p>
+  <p>Welcome to my first personal website.</p>
+  <a class="button" href="#about">Explore My Website</a>
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am a BCA student learning Web Development.</p>
+    <p>I enjoy learning new technologies and building projects.</p>
+  </div>
+</section>
+
+<section>
+  <h2>My Skills</h2>
+  <div class="card">
+    <p>HTML - Website Structure</p>
+    <p>CSS - Website Design</p>
+    <p>Python - Programming</p>
+  </div>
+</section>
+
+<section>
+  <h2>My Project</h2>
+  <div class="card">
+    <h3>My First Website</h3>
+    <p>Created with HTML and CSS.</p>
+  </div>
+</section>
+
+<footer><p>Made with love by Pawan</p></footer>
 </body>
 </html>
